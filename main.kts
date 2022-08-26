@@ -1,18 +1,18 @@
 
 class Meals:
 
-fun breakfast(){
-    
+fun breakfast(mealCarbohydrates,foodWeight, servingSize){
+    carbsFormula = (mealCarbohydrates / foodWeight) * servingSize
 }
 
-fun lunch(){
-    
+fun lunch(mealCarbohydrates,foodWeight, servingSize){
+    carbsFormula = (mealCarbohydrates / foodWeight) * servingSize
 }
 
-fun afternoonSnack(){
-
+fun afternoonSnack(mealCarbohydrates,foodWeight, servingSize){
+    carbsFormula = (mealCarbohydrates / foodWeight) * servingSize
 }
 
-fun dinner(){
-    
+fun dinner(mealCarbohydrates,foodWeight, servingSize){
+    carbsFormula = (mealCarbohydrates / foodWeight) * servingSize
 }
